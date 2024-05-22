@@ -81,9 +81,7 @@ function logIn(event) {
         timelineContainer.classList.remove('inactive');
 
         showTimeline();
-        console.log('Lo logre soy la mejor');
     } else {
         errorMessage.textContent = 'Invalid username or password. Please try again.';
-        console.log('Funciona el error tambien. Yey!');
     };
 };
