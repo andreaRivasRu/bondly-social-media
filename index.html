@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondly Social Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="login-container ">
+        <div class="introduction">
+            <h1 class="title">Bondly</h1>
+            <p>Stay connected with friends and discover new connections nearby. Log in to join the community!</p>
+        </div>
+        
+        <form action="./" class="login-form-container">
+            <label for="username">
+                <p>Username</p>
+                <input type="text" id="username" placeholder="Introduce your Username" required>
+            </label>
+            <label for="password">
+                <p>Password</p>
+                <input type="password" id="password" placeholder="Introduce your Password" required>
+            </label>
+            <input type="submit" value="Log in" class="button">
+        </form>
+        <div class="error-message"></div>
+    </section>
+
+    <section class="timeline-container inactive">
+        <h2>Timeline</h2>
+        <div id="timeline"></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
